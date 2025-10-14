@@ -1,0 +1,16 @@
+samples('github:david-hajnal/breaks3')
+
+setCps(150/60/4)
+
+$: s("breaks/1")
+  .fit()
+  .scrub(irand(8).div(16).seg(8))
+  .almostNever(ply("2 | 5 | 8"))
+  .gain(1)
+  .room("<0 .2 .4 .6 .8 1>")
+  .attack("<0 .025>")
+  .crush("<1 4 8 4 8>")
+  .velocity("1 .9 1 .8")
+  .delay("0.05:0.25:0.09 0.45:0.0125:0.5")
+  .compress(.95)
+  .orbit(2)
