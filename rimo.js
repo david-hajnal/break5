@@ -1,0 +1,17 @@
+samples('https://raw.githubusercontent.com/david-hajnal/break5/main/strudel.json?version=2')
+
+setCps(123/60/8)
+
+$: s("rimo/1")
+ // .fit()
+  //.slice(8, "0 <~ 1> 1 2 5 4 6 7")  
+  .fit().scrub("{0@3 1@2 <5 2> 4}%8".div(16).ribbon("<0 1 1333>", 2))
+  .chop(8)
+  .loopAt(2) 
+  .almostNever(ply("2 | 5 | 8 | 3"))
+  //.cut(iter(1))
+  .gain(1)
+  .room("<0 .2 1 .1 1.3 .3>")
+  //.pan(sine.range(0.2,0.8).fast(4))
+  .coarse("{1 4 1 0 8}")
+  .orbit(2)
