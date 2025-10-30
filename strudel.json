@@ -7,6 +7,9 @@
         "breaks/zapper2.wav",
         "breaks/zapper.wav"
     ],
+    "poly": [
+        "breaks/poly1.wav"
+    ],
     "rimo": [
         "breaks/rimo5.wav",
         "breaks/rimo4.wav",
