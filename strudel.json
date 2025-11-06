@@ -29,6 +29,7 @@
     ],
     "breaks": 
     [
+        "breaks/basic.wav",
         "breaks/advanced3_150.wav",
         "breaks/advanced_funky2.wav",
         "breaks/foro_01.wav",
