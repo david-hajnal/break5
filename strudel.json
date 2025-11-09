@@ -2,6 +2,7 @@
     "_base": "https://raw.githubusercontent.com/david-hajnal/break5/main/",
     "runningup": 
     [
+        "breaks/rnnp5.wav",
         "breaks/rnnp4.wav",
         "breaks/rnnp3.wav",
         "breaks/rnnp2.wav",
